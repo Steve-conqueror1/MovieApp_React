@@ -1,0 +1,62 @@
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.form-group-lg select.form-control {
+  width: 25rem;
+}
+
+.btn-info {
+  border: none;
+  border-radius: 0%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+input.searchText {
+  border: none;
+  border-radius: 0%;
+  margin: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.searchArea {
+  border: 1px #46b8da solid;
+  padding: -2px;
+  border-radius: 15px;
+}
+
+.footer {
+  padding-left: 70%;
+  color: #5bc0de;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal,
+.modal-container .modal-backdrop {
+  position: absolute;
+}
+
+td,
+th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.movieDescription {
+  float: right;
+  width: 80%;
+}
+
+.textInfo {
+  color: #5bc0de;
+  font-size: 25px;
+  margin-right: 20px;
+}
