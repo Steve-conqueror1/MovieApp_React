@@ -21,33 +21,8 @@ class Movies extends Component {
     this.reviewText = '';
 
     this.state = {
-      movies: [
-        // {
-        //   id: 1,
-        //   title: 'Pradator',
-        //   format: 'Movie',
-        //   genre: 'Action',
-        //   year: 2009,
-        //   rating: 9.7
-        // },
-        // {
-        //   id: 2,
-        //   title: 'Pradator1',
-        //   format: 'Movie',
-        //   genre: 'Horror',
-        //   year: 1989,
-        //   rating: 7.6
-        // },
-        // {
-        //   id: 3,
-        //   title: 'Pradator2',
-        //   format: 'Movie',
-        //   genre: 'Comedy',
-        //   year: 1999,
-        //   rating: 8.7
-        // }
-      ],
-      reviews: [],
+      movies: [        
+      ],    
       showMovieInfo: false,
       setId: 0
     };
